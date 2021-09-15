@@ -1,0 +1,18 @@
+
+{% extends "project/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+    <h1 class="text-center mt-5" id="projectdetailtitle">{{ project.title }}</h1>
+
+    <h5 class="text-center text-muted mb-5">{{ project.date|date:'F jS Y' }}</h5>
+
+    {{ project.body |safe }}
+
+
+    {{ project.content | safe }}
+
+{% endblock %}
+

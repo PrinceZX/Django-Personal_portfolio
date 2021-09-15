@@ -38,11 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    'portfolio'
+    'project',
+    'ckeditor',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -101,6 +103,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
