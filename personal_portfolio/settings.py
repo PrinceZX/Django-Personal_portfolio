@@ -25,7 +25,7 @@ SECRET_KEY = 'njqp5o&i=b&s-a@q_0@a4&#h-6*6wl17&g-$riuyw=&*7ln0j1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://awesomelearnings.herokuapp.com/']
+ALLOWED_HOSTS = ['awesomelearnings.herokuapp.com/']
 
 
 # Application definition
